@@ -1,0 +1,16 @@
+{
+  "name": "00-how-to",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "env -u ANTHROPIC_API_KEY -u MODEL_NAME node --env-file=.env index.ts",
+    "check-env": "env -u ANTHROPIC_API_KEY -u MODEL_NAME node --env-file=.env -e \"console.log(JSON.stringify({keyPrefix: process.env.ANTHROPIC_API_KEY?.slice(0,16), keyLength: process.env.ANTHROPIC_API_KEY?.length, model: process.env.MODEL_NAME}, null, 2))\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2"
+  }
+}
