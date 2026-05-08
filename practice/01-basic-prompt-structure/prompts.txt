@@ -1,0 +1,28 @@
+# folder: 01-basic-prompt-structure
+
+# Prompt
+Hi Claude, how are you?
+
+# Claude's response
+Hi! Doing well, thanks for asking. How are you doing? What can I help you with today?
+     
+
+# Prompt
+Can you tell me the color of the ocean?
+
+# Claude's response
+The ocean appears blue — though the exact shade varies depending on conditions:
+
+- Deep open ocean: Deep, vivid blue
+- Shallow coastal waters: Lighter blue, turquoise, or green
+- Cloudy or stormy days: Grey or dark green
+- Near river mouths or algae blooms: Brown or greenish
+
+The blue color comes primarily from water molecules absorbing red wavelengths of light and scattering blue wavelengths back to our eyes — similar to why the sky is blue. Reflected sky color also plays a role.
+
+
+# Prompt
+What year was Celine Dion born in?
+
+# Claude's response
+Celine Dion was born on March 30, 1968.
